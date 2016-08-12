@@ -21,7 +21,6 @@ to be an avenue for learning about the following:
 * Computation complexity 
 * Heap utilization and performance
 * Expressiveness
-* Testing
 
 This touches on all of these things because the matrix arithmetic is implemented in both
 a traditional functional way as well as an imperative way using arrays.  We will see what
@@ -40,7 +39,7 @@ tradeoff between expressiveness and performance.
 ## __How To Build__
 
 The code here requires that you have `make`, `ocamlfind` and `ocamlopt` available.  In order 
-to run the baseline test against SGEMV accessed via Lacaml, you will need to also have
+to run the baseline test against DGEMV accessed via Lacaml, you will need to also have
 BLAS and LAPACK, as well as Lacaml installed.  In order to make the C assembly example, you
 will need to have gcc installed.  Some of the lesser known: 
 
