@@ -1,9 +1,13 @@
-## __Matrix Arithmetic in OCaml__
+# Matrix Arithmetic in OCaml
 
 This code is demonstration code for Computer Science Club.  In a previous presentation we
 implemented a gradient decent multiple layer backpropagation neural network using, for fun
 in demonstration, a mix of functional matrix methods and use of `BLAS` via the `lacaml`
 library.  This is a follow-up dealing with implementation of BLAS-like matrix arithmetic.
+
+
+
+### What It Is About
 
 Superficially, this presentation is about the implementation of various simple operations 
 with matrices, such as those that might be used in the problems such as training neural 
@@ -35,8 +39,7 @@ tradeoff between expressiveness and performance.
 
 
 
-
-## __How To Build__
+### How To Build It
 
 The code here requires that you have `make`, `ocamlfind` and `ocamlopt` available.  In order 
 to run the baseline test against DGEMV accessed via Lacaml, you will need to also have
